@@ -2,13 +2,13 @@ const cf = {
   config: {
 
 
-    guild_x: "None", //your guild id
+    guild_x: "1272884000616218644", //your guild id
 
-    role_x: "None", //slot user role id, you need this role in your profile to use slot bot 
+    role_x: "1284203943995379803", //slot user role id, you need this role in your profile to use slot bot 
 
-    staff_x: "None", // staff role id
+    staff_x: "1284203978896314398", // staff role id
 
-    logchannel: '', //channel id for slot revoke notice
+    logchannel: '1272884000616218647', //channel id for slot revoke notice
 
     slotrule: `set your slot rules`, // your slot rules
   }
