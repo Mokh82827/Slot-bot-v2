@@ -44,7 +44,7 @@ if (!cf.config.guild_x || !cf.config.role_x || !cf.config.staff_x  || !cf.config
 client.commands = new Collection();
 client.aliases = new Collection()
 mongoose.set("strictQuery", false);
-mongoose.connect("Mongo Url").catch((e)=> {
+mongoose.connect("mongodb+srv://yossefmokhtar671:<db_password>@cluster0.9fxsq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").catch((e)=> {
   console.log(e)
   process.exit()
 
